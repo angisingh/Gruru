@@ -1,0 +1,93 @@
+html {
+	
+}
+
+body {
+	
+}
+
+/* HEADER
+==========================*/
+#header_container {
+	width: 100%;
+	background-color: black;
+	padding: 0;
+	margin: 0;
+	display: inline-block;
+}
+
+	#header {
+		width: 960px;
+		background-color: gray;
+		margin: 0 auto;
+		padding: 0;
+	}
+
+		#logo_box {
+	
+		}
+
+		#submit_box {
+
+		}
+		
+			#submit_box input {
+				
+			}
+			
+		#nav {
+			
+		}
+
+
+/* TOPIC
+=========================*/
+#topic_container {
+	
+}
+
+	#topic_interface {
+		
+	}
+	
+		#topic_box {
+			
+		}
+		
+			#topic_media {
+				
+			}
+		
+		#vote_box {
+			
+		}
+		
+			#plus {
+				
+			}
+			
+			#minus {
+				
+			}
+
+
+/* DATA
+===========================*/
+#data_container {
+	
+}
+
+
+
+
+
+/* COMMON ASSETS
+============================*/
+.button {
+	
+}
+
+
+
+
+
