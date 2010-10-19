@@ -148,13 +148,19 @@
 			</div>
 		</div>
 
-	<script src="javascripts/jquery-1.4.2.min.js" type="text/javascript" charset="utf-8"></script>
-	<!-- <script src="javascripts/sammy/sammy.js" type="text/javascript" charset="utf-8"></script>
-	<script src="javascripts/sammy/plugins/sammy.meld.js" type="text/javascript" charset="utf-8"></script>
-	<script src="javascripts/sammy/plugins/sammy.storage.js" type="text/javascript" charset="utf-8"></script>
-	<script src="javascripts/sammy/plugins/sammy.json.js" type="text/javascript" charset="utf-8"></script> -->
-
-	<script src="javascripts/daetum_ui.js" type="text/javascript" charset="utf-8"></script>
+	<script src = "/_utils/script/jquery.js"></script>
+	<script src = "/_utils/script/jquery.couch.js"></script>
+	<script src = "javascripts/couchInteraction.js"></script>
+	<script>
+		 $(document).ready(function() { 
+			 $('#plus_vote').click(function() {
+	  			saveYesVote();
+			});
+			$('#minus_vote').click(function() {
+	  			saveNoVote();
+			});
+		});
+	</script>
 
 
 
